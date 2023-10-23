@@ -1,0 +1,137 @@
+.proyects{
+    text-align: center;
+}
+
+.proyects h2{
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+
+.containerProyects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    margin: 0px 15px 0px 15px;
+}
+
+.cardImage img{
+    width: 500px;
+    max-height: 235px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cardContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #ffffff;
+    line-height: 1.5;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+    background-color: rgba(0, 0, 0, 0.646);
+    backdrop-filter: blur(10px);
+}
+
+.card .cardContent .heading {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card:hover .cardContent {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.containerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.containerCard a{
+    text-decoration: none;
+    font-size: large;
+    width: 150px;
+}
+
+.repositorio {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.repositorio:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #E1D7C6;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.repositorio span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.repositorio svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.repositorio:hover:before {
+    width: 100%;
+}
+
+.repositorio:hover svg {
+    transform: translateX(0);
+}
+
+.repositorio:active {
+    transform: scale(0.95);
+}
+
+
+@media screen and (max-width: 576px){
+    .cardImage img{
+        width: 100%;
+    }
+} 

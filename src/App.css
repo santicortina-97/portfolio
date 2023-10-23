@@ -1,0 +1,57 @@
+#Dark{
+    background-color: #27374D;
+    color: white;
+}
+
+#Light{
+    background-color: #f2f1f1;
+    color: black;
+}
+
+#Dark nav,
+#Dark footer{
+    background-color: #526D82;
+}
+
+#Dark nav a{
+    color: white;
+}
+
+#Light nav,
+#Light footer,
+#Light .repositorio:before{
+    background-color: #E1D7C6;
+}
+
+
+#Dark .containerImage,
+#Dark .containerRedes{
+    background: #ffffff5e;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0), 0 4px 6px -4px rgb(0 0 0);
+}
+
+#Light .curriculum,
+#Light .containerCard a{
+    color: black;
+}
+
+#Dark .containerCard a{
+    color: white;
+}
+
+#Dark .curriculum,
+#Dark .repositorio:before{
+    background: #ffffff5e;
+    color: white;
+}
+
+
+
+#Light .repositorio svg{
+    stroke: black;
+}
+
+
+#Dark .repositorio svg{
+    stroke: white;
+}
