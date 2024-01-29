@@ -1,5 +1,10 @@
 .proyects{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .proyects h2{
@@ -7,71 +12,46 @@
     font-size: xx-large;
 }
 
-.containerProyects{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
 .card{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    position: relative;
-    margin: 0px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.cardImage img{
-    width: 500px;
-    max-height: 235px;
+.card p{
+    width: 100%;
+}
+
+.card img{
+    width: calc(450px * 4/3);
+    max-height: 300px;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.cardContent{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    color: #ffffff;
-    line-height: 1.5;
-    border-radius: 20px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
-    background-color: rgba(0, 0, 0, 0.646);
-    backdrop-filter: blur(10px);
-}
-
-.card .cardContent .heading {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.card:hover .cardContent {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
 .containerCard{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
+    gap: 20px;
 }
 
-.containerCard a{
-    text-decoration: none;
-    font-size: large;
-    width: 150px;
+.skills{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skills span{
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background-size: 400%;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 
 .repositorio {
@@ -129,9 +109,18 @@
     transform: scale(0.95);
 }
 
-
-@media screen and (max-width: 576px){
-    .cardImage img{
+@media screen and (max-width: 1090px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px){
+    .card img{
         width: 100%;
     }
-} 
+    .skills{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+}

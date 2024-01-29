@@ -30,6 +30,10 @@
     box-shadow: 0 10px 15px -3px rgb(0 0 0), 0 4px 6px -4px rgb(0 0 0);
 }
 
+#Dark .card{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0), 0 4px 6px -4px rgb(0 0 0);
+}
+
 #Light .curriculum,
 #Light .containerCard a{
     color: black;
@@ -39,9 +43,14 @@
     color: white;
 }
 
+#Dark .skills span{
+    background: #ffffff2d;
+    color: white;
+}
+
 #Dark .curriculum,
 #Dark .repositorio:before{
-    background: #ffffff5e;
+    background: #ffffff34;
     color: white;
 }
 
