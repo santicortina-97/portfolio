@@ -4,6 +4,7 @@ import RyM from "../../assets/RyM.png"
 import piVideogames from "../../assets/piVideogames.png"
 import proyectoHTML from "../../assets/proyectoHTML.png"
 import proyectoNext from "../../assets/proyectoNext.png"
+import chatNext from "../../assets/proyectoChatNext.png"
 
 import "./Proyects.css"
 
@@ -11,6 +12,35 @@ const Proyects = () => {
     return (
         <div className="proyects" id='proyects'>
             <h2>Proyectos</h2>
+            <div className='card'>
+                <img src={chatNext} alt="" />
+                <div className='containerCard'>
+                    <p>- Chat online para enviar y recibir mensajes de distintas cuentas.</p>
+                    <div className='skills'>
+                        <span>ReactJs</span>
+                        <span>Redux</span>
+                        <span>NextJs</span>
+                        <span>Tailwind</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div>
+                        <button className='repositorio'>
+                            <span><a href="https://chat-next-ochre.vercel.app/" target='blank'>Ver Deploy</a></span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                        <button className='repositorio'>
+                            <span><a href="https://github.com/santicortina-97/chat-next" target='blank'>Ver Repositorio</a></span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
             <div className='card'>
                 <img src={proyectoNext} alt="" />
                 <div className='containerCard'>
@@ -39,7 +69,7 @@ const Proyects = () => {
             <div className='card'>
                 <img src={piVideogames} alt="" />
                 <div className='containerCard'>
-                    <p>Aplicación web dinámica para videojuegos, destacando en tecnologías frontend y backend.</p>
+                    <p>- Aplicación web dinámica para videojuegos, destacando en tecnologías frontend y backend.</p>
                     <div className='skills'>
                         <span>ReactJs</span>
                         <span>Redux</span>
@@ -62,7 +92,7 @@ const Proyects = () => {
             <div className='card'>
                 <img src={RyM} alt="" />
                 <div className='containerCard'>
-                    <p>Desarrollo de una SPA (Single Page Application).</p>
+                    <p>- Desarrollo de una SPA (Single Page Application).</p>
                     <div className='skills'>
                         <span>ReactJs</span>
                         <span>Redux</span>
@@ -85,7 +115,7 @@ const Proyects = () => {
             <div className='card'>
                 <img src={proyectoReact} alt="" />
                 <div className='containerCard'>
-                    <p>Desarrollo de un Ecommerce.</p>
+                    <p>- Desarrollo de un Ecommerce.</p>
                     <div className='skills'>
                         <span>ReactJs</span>
                         <span>CSS</span>
@@ -105,7 +135,7 @@ const Proyects = () => {
             <div className='card'>
                 <img src={proyectoHTML} alt="" />
                 <div className='containerCard'>
-                    <p>Este sitio te brindará información acerca de felinos salvajes.</p>
+                    <p>- Este sitio te brindará información acerca de felinos salvajes.</p>
                     <div className='skills'>
                         <span>HTML</span>
                         <span>Sass</span>

@@ -8,7 +8,8 @@ import react from "../../assets/svg/react.svg"
 import redux from "../../assets/svg/redux.svg"
 import node from "../../assets/svg/nodejs.svg"
 import sql from "../../assets/svg/file-type-sql.svg"
-
+import firebase from "../../assets/svg/firebase.svg"
+import nextJs from "../../assets/svg/nextjs.svg"
 
 import "./About.css"
 
@@ -43,9 +44,11 @@ const About = () => {
                 <img src={bootstrap} alt=""/>
                 <img src={js} alt=""/>
                 <img src={react} alt=""/>
+                <img src={nextJs} alt=""/>
                 <img src={redux} alt=""/>
                 <img src={node} alt=""/>
                 <img src={sql} alt=""/>
+                <img src={firebase} alt=""/>
                 </div>
             </div>
         </div>
