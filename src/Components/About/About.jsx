@@ -10,6 +10,9 @@ import node from "../../assets/svg/nodejs.svg"
 import sql from "../../assets/svg/file-type-sql.svg"
 import firebase from "../../assets/svg/firebase.svg"
 import nextJs from "../../assets/svg/nextjs.svg"
+import wordpress from "../../assets/svg/wordpress.svg"
+import prestashop from "../../assets/svg/prestashop.svg"
+import shopify from "../../assets/svg/shopify.svg"
 
 import "./About.css"
 
@@ -39,16 +42,27 @@ const About = () => {
             <div className='containerSkills'>
                 <h2>Mis Skills</h2>
                 <div className='containerImage'>
-                <img src={html} alt=""/>
-                <img src={css} alt=""/>
-                <img src={bootstrap} alt=""/>
-                <img src={js} alt=""/>
-                <img src={react} alt=""/>
-                <img src={nextJs} alt=""/>
-                <img src={redux} alt=""/>
-                <img src={node} alt=""/>
-                <img src={sql} alt=""/>
-                <img src={firebase} alt=""/>
+                    <img src={html} alt=""/>
+                    <img src={css} alt=""/>
+                    <img src={bootstrap} alt=""/>
+                    <img src={js} alt=""/>
+                    <img src={react} alt=""/>
+                    <img src={nextJs} alt=""/>
+                    <img src={redux} alt=""/>
+                    <img src={node} alt=""/>
+                    <img src={sql} alt=""/>
+                    <img src={firebase} alt=""/>
+                    <img src={wordpress} alt=""/>
+                    <img src={prestashop} alt=""/>
+                    <img src={shopify} alt=""/>
+                </div>
+            </div>
+            <div className='containerExperience'>
+                <h2>Experiencia Laboral</h2>
+                <div className='containerData'>
+                    <h2>Desarrollador Web (Piso29)
+                    Marzo 2024 - Actualidad</h2>
+                    <li>Desarrollo web utilizando Wordpress, Prestashop, Shopify, JavaScript</li>
                 </div>
             </div>
         </div>
