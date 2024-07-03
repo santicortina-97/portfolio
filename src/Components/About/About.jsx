@@ -57,7 +57,7 @@ const About = () => {
                     <img src={shopify} alt=""/>
                 </div>
             </div>
-            <div className='containerExperience'>
+            <div className='containerExperience' id="experiencia">
                 <h2>Experiencia Laboral</h2>
                 <div className='containerData'>
                     <h2>Desarrollador Web (Piso29)

@@ -36,6 +36,11 @@ useEffect(() => {
             </Link>
             </li>
             <li>
+            <Link to="experiencia" spy={true} smooth={true} offset={0} duration={500}>
+                Experiencia
+            </Link>
+            </li>
+            <li>
             <Link to="proyects" spy={true} smooth={true} offset={0} duration={800}>
                 Proyectos
             </Link>
