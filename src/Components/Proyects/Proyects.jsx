@@ -5,6 +5,7 @@ import piVideogames from "../../assets/piVideogames.png"
 import proyectoHTML from "../../assets/proyectoHTML.png"
 import proyectoNext from "../../assets/proyectoNext.png"
 import chatNext from "../../assets/proyectoChatNext.png"
+import trenesDeAdrian from "../../assets/trenesDeAdrian.png"
 
 import "./Proyects.css"
 
@@ -12,6 +13,27 @@ const Proyects = () => {
     return (
         <div className="proyects" id='proyects'>
             <h2>Proyectos</h2>
+            <div className='card'>
+                <img src={trenesDeAdrian} alt="" />
+                <div className='containerCard'>
+                    <p>- Sitio web diseñado como un catálogo digital para exhibir productos de trenes sin funcionalidad de venta.</p>
+                    <div className='skills'>
+                        <span>Wordpress</span>
+                        <span>Elementor</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                    </div>
+                    <div>
+                        <button className='repositorio'>
+                            <span><a href="https://trenesdeadrian.com/" target='blank'>Sitio Web</a></span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                <path d="M1,5 L11,5"></path>
+                                <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
             <div className='card'>
                 <img src={chatNext} alt="" />
                 <div className='containerCard'>
