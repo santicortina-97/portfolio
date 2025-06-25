@@ -62,7 +62,7 @@ const About = () => {
                 <div className='containerData'>
                     <h2>Desarrollador Web (Piso29)
                     Marzo 2024 - Actualidad</h2>
-                    <li>Desarrollo web utilizando Wordpress, Prestashop, Shopify, JavaScript</li>
+                    <li>Desarrollo y mantención de sitios Web</li>
                 </div>
             </div>
         </div>
