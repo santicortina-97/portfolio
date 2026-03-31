@@ -13,6 +13,7 @@ import nextJs from "../../assets/svg/nextjs.svg"
 import wordpress from "../../assets/svg/wordpress.svg"
 import prestashop from "../../assets/svg/prestashop.svg"
 import shopify from "../../assets/svg/shopify.svg"
+import vue from "../../assets/svg/vue.svg"
 
 import "./About.css"
 
@@ -24,7 +25,7 @@ const About = () => {
             <div className='containerIntro'>
                 <div>
                     <img src={perfil} alt="" />
-                        <a href="https://drive.google.com/file/d/1FQH5AC4NlZh17kXxJCtUVHMPqEo1ZQwd/view?usp=sharing" target='blank' >
+                        <a href="https://drive.google.com/file/d/1n9JyCONMREmb31EHmxfMlDioz0ayZePn/view?usp=sharing" target='blank' >
                         <button className='curriculum'>
                             <span>CV</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
@@ -47,6 +48,7 @@ const About = () => {
                     <img src={bootstrap} alt=""/>
                     <img src={js} alt=""/>
                     <img src={react} alt=""/>
+                    <img src={vue} alt=""/>
                     <img src={nextJs} alt=""/>
                     <img src={redux} alt=""/>
                     <img src={node} alt=""/>
@@ -57,14 +59,31 @@ const About = () => {
                     <img src={shopify} alt=""/>
                 </div>
             </div>
-            <div className='containerExperience' id="experiencia">
+{/*             <div className='containerExperience' id="experiencia">
                 <h2>Experiencia Laboral</h2>
                 <div className='containerData'>
                     <h2>Desarrollador Web (Piso29)
                     Marzo 2024 - Actualidad</h2>
                     <li>Desarrollo y mantención de sitios Web</li>
                 </div>
-            </div>
+            </div> */}
+{            <div className='containerExperience' id="experiencia">
+                <h2>Experiencia Laboral</h2>
+                <div className='containerData'>
+                    <div>
+                        <h2>Junior Software Engineer (GoToITSolutions)
+                        Julio 2025 - Actualidad</h2>
+                        <li>Desarrollo de aplicaciones web con Vue.js, Node.js y JavaScript</li>                        
+                        <li>Manejo de bases de datos SQL</li>                        
+                    </div>
+                    <div>
+                        <h2>Desarrollador Web (Piso29)
+                        Marzo 2024 - Julio 2025</h2>
+                        <li>Desarrollo y mantenimiento de sitios web con WordPress y Elementor</li>
+                        <li>Maquetación con HTML, CSS y JavaScript</li>
+                    </div>
+                </div>
+            </div>}
         </div>
     )
 }
