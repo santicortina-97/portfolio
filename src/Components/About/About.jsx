@@ -25,7 +25,7 @@ const About = () => {
             <div className='containerIntro'>
                 <div>
                     <img src={perfil} alt="" />
-                        <a href="https://drive.google.com/file/d/1n9JyCONMREmb31EHmxfMlDioz0ayZePn/view?usp=sharing" target='blank' >
+                        <a href="https://drive.google.com/file/d/120N2GQDh4uPksmWc0AGn8TNtseRsGf1n/view" target='blank' >
                         <button className='curriculum'>
                             <span>CV</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
