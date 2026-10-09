@@ -71,7 +71,7 @@ const About = () => {
                 <h2>Experiencia Laboral</h2>
                 <div className='containerData'>
                     <div>
-                        <h2>Junior Software Engineer (GoToITSolutions)
+                        <h2>Software Engineer (GoToITSolutions)
                         Julio 2025 - Actualidad</h2>
                         <li>Desarrollo de aplicaciones web con Vue.js, Node.js y JavaScript</li>                        
                         <li>Manejo de bases de datos SQL</li>                        
